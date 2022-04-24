@@ -1,0 +1,25 @@
+header {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  /*align-content: center;*/
+  font-size: larger;
+
+}
+
+nav ul li {
+  align-self: center;
+  margin: 30px;
+  list-style: none;
+  color: royalblue;
+  font-weight: bold;
+
+}
