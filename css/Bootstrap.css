@@ -33,7 +33,7 @@ h1 {
 
 h2,
 p {
-  color: royalblue
+  color: royalblue;
 }
 
 p {
@@ -63,7 +63,7 @@ footer ul li a img {
 
 .btn {
   padding: 10px 30px;
-  transition: all .5s ease-in-out
+  transition: all .5s ease-in-out;
 }
 
 .btn.btn-laranja {
