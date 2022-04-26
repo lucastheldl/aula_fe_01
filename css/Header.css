@@ -1,4 +1,4 @@
-header nav ul {
+header section nav ul {
   display: flex;
   flex-direction: row;
   /*align-content: center;*/
@@ -9,7 +9,7 @@ header nav ul {
 }
 
 
-header nav ul li a {
+header section nav ul li a {
   align-items: center;
   margin: 30px;
   padding: 10px 30px;
