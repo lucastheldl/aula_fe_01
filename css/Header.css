@@ -4,13 +4,15 @@ header nav ul {
   /*align-content: center;*/
   font-size: larger;
   list-style: none;
+  align-items: center;
 
 }
 
 
 header nav ul li a {
-  align-self: center;
+  align-items: center;
   margin: 30px;
+  padding: 10px 30px;
   line-height: 50px;
 
   color: royalblue;
