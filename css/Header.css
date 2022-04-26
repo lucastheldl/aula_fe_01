@@ -1,6 +1,5 @@
 header section nav ul {
   display: flex;
-  flex-direction: row;
   /*align-content: center;*/
   font-size: larger;
   list-style: none;
@@ -8,11 +7,16 @@ header section nav ul {
 
 }
 
+header section nav ul li {
+  margin: 30px;
+  padding: 10px 30px;
+}
+
 
 header section nav ul li a {
   align-items: center;
-  margin: 30px;
-  padding: 10px 30px;
+  /*margin: 30px;
+  padding: 10px 30px;*/
   line-height: 50px;
 
   color: royalblue;

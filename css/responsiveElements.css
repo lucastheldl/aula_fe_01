@@ -53,6 +53,11 @@
   .container {
     width: 400px;
   }
+
+  header section nav ul li {
+    margin: 0px;
+    padding: 10px 10px;
+  }
 }
 
 @media(max-width: 550px) {
@@ -61,7 +66,7 @@
     width: 290px;
   }
 
-  header nav {
+  header section nav {
     background: #FFF;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   }
