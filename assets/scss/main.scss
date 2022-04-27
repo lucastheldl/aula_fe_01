@@ -1,0 +1,62 @@
+.row {
+  article {
+    width: 250px;
+
+    figcaption {
+      img {
+        width: 700px;
+        margin: 0 0 0 0px;
+      }
+    }
+  }
+}
+
+.sobre-web-design {
+  article {
+    h1 {
+      color: $cor-secundaria;
+      font-size: $font-h1;
+      margin: 30px 0px 0;
+
+    }
+
+    h2 {
+      font-size: $font-h2;
+    }
+
+    p {
+      /*poderia usar classe para melhorar*/
+      align-items: center;
+      letter-spacing: 2px;
+      /*max-width: 300px;*/
+      /*margin-right: 100px;*/
+      margin: 30px 0px 40px;
+    }
+  }
+
+  h2,
+  p {
+    color: $cor-primaria;
+  }
+}
+
+
+.btn {
+  padding: 10px 30px;
+  transition: all .5s ease-in-out;
+
+  &.btn.btn-laranja {
+    background-color: $cor-terciaria;
+    border-radius: $btn-radius;
+    text-align: center;
+    line-height: 50px;
+    color: $cor-branco;
+
+  }
+
+  &.btn:hover {
+    background-color: #000;
+    /*  Making button bigger on hover  */
+    /*transform: scale(1.5) perspective(1px)*/
+  }
+}

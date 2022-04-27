@@ -1,0 +1,109 @@
+@media(max-width: 1150px) {
+  .container {
+    width: 950px;
+  }
+
+}
+
+@media(max-width: 1024px) {
+  .container {
+    width: 850px;
+  }
+
+  .row figcaption img {
+    figcaption {
+      img {
+        width: 500px;
+      }
+    }
+
+  }
+}
+
+@media(max-width: 915px) {
+  body {
+    background-position: left -200px;
+    background-color: $cor-quaternaria;
+  }
+
+  .container {
+    width: 600px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  header {
+    nav {
+      margin: 30px 0;
+    }
+
+  }
+
+  main {
+    .sobre-web-design {
+      article {
+        width: 100%;
+      }
+
+      figcaption {
+        img {
+          width: 100%;
+          margin: 30px 0 0 0;
+        }
+
+      }
+    }
+
+  }
+
+  footer {
+    &.row {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+  }
+}
+
+@media(max-width: 665px) {
+
+  .container {
+    width: 400px;
+  }
+
+  header {
+    section {
+      nav {
+        ul {
+          li {
+            margin: 0px;
+            padding: 10px 10px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media(max-width: 550px) {
+
+  .container {
+    width: 290px;
+  }
+
+  header {
+    section {
+      nav {
+        background: $cor-branco;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+        ul {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

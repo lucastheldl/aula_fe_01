@@ -1,0 +1,29 @@
+header {
+  section {
+    nav {
+      ul {
+        display: flex;
+        /*align-content: center;*/
+        font-size: larger;
+        list-style: none;
+        align-items: center;
+
+        li {
+          margin: 30px;
+          padding: 10px 30px;
+
+          a {
+            align-items: center;
+            /*margin: 30px;
+            padding: 10px 30px;*/
+            line-height: 50px;
+
+            color: $cor-primaria;
+            font-weight: bold;
+            transition: all .5s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
